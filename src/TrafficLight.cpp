@@ -51,7 +51,7 @@ void TrafficLight::waitForGreen()
    
     while(true){
         TrafficLightPhase current = mq.receive();
-        if(current == TrafficLightPhase::green){
+        if(current = TrafficLightPhase::green){
             return;
         }
     }
